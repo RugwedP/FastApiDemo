@@ -7,7 +7,7 @@ from database_model.teacher import Teacher
 
 
 from database import Base
-
+# this is test
 app = FastAPI()
 Base.metadata.create_all(bind=engine)
 
